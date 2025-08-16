@@ -2,6 +2,9 @@
 
 A Chrome extension that allows you to quickly search ChatGPT directly from your browser's address bar. Simply type `c your question` and the extension will open ChatGPT, auto-fill your prompt, and submit it automatically.
 
+![Example Screenshot](example.png)
+
+
 ## Features
 
 - 🚀 **Quick Access**: Type `c` followed by your question in the Chrome address bar
@@ -11,26 +14,19 @@ A Chrome extension that allows you to quickly search ChatGPT directly from your 
 - 📋 **Fallback Support**: Copies to clipboard if auto-fill fails
 
 ## Installation
-
 ### Method 1: Load Unpacked (Development)
 
-1. **Download the extension files**:
-   - `manifest.json`
-   - `background.js`
+1. **Download and unzip** this repository to your computer. 
 
-2. **Create a folder** for the extension (e.g., `chatgpt-extension/`)
-
-3. **Place both files** in the folder
-
-4. **Open Chrome Extensions**:
+2. **Open Chrome Extensions**:
    - Navigate to `chrome://extensions/`
    - Enable "Developer mode" (toggle in top-right)
 
-5. **Load the extension**:
+3. **Load the extension**:
    - Click "Load unpacked"
    - Select your extension folder
 
-6. **Verify installation**:
+4. **Verify installation**:
    - You should see "ChatGPT (type `c <query>`)" in your extensions list
 
 ### Method 2: Chrome Web Store (Coming Soon)
@@ -58,14 +54,6 @@ The extension will be available on the Chrome Web Store for easy installation.
    - Chrome will navigate to ChatGPT
    - Your question will be automatically filled in
    - The message will be sent automatically
-
-## Examples
-
-| Command | What it does |
-|---------|-------------|
-| `c Hello ChatGPT` | Opens ChatGPT and sends "Hello ChatGPT" |
-| `c What is 2+2?` | Opens ChatGPT and asks "What is 2+2?" |
-| `c` | Opens ChatGPT with a default greeting |
 
 ## Troubleshooting
 
