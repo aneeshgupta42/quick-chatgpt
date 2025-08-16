@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT (type `c <query>`)",
+  "description": "Type `c your question` in the search bar to open ChatGPT, auto-fill the prompt, and submit.",
+  "version": "1.0.0",
+  "omnibox": {
+    "keyword": "c"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
